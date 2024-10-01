@@ -61,15 +61,15 @@ html{
     url(img/fondo.jpg);
     background-size: cover;
     height: 100vh;
-    padding-top: 5%;
     color: #fff;
+    margin-top: 4%;
     display: flex;
     align-items: center;
 }
 .inicio .contenido-banner{
     padding: 20px;
     background-color: #1e2326;
-    max-width: 340px;
+    max-width: 350px;
     margin: auto;
     text-align: center;
     border-radius: 40px;
@@ -83,9 +83,9 @@ html{
     border-radius: 100%;
 }
 .inicio .contenido-banner h1{
-    margin-top: 30px;
-    font-size: 32px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
 }
 .inicio .contenido-banner h2{
     font-size: 15px;
@@ -100,7 +100,7 @@ html{
     width: 42px;
     height: 42px;
     line-height: 42px;
-    margin: 30px 5px;
+    margin: 40px 5px;
     font-size: 20px;
     transition: .3s;
 }
@@ -270,52 +270,52 @@ html{
     font-size: 14px;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
-.skills .skill .javascript{
+.javascript{
     width: 0%;
     animation: 2s javascript forwards;
 }
-@keyframes javascript {
+@keyframes javascript{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 50%;}
 }
 
-.skills .skill .htmlcss{
+.htmlcss{
     width: 0%;
     animation: 2s htmlcss forwards;
 }
-@keyframes htmlcss {
+@keyframes htmlcss{
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 90%;}
 }
 
-.skills .skill .photoshop{
+.photoshop{
     width: 0%;
     animation: 2s photoshop forwards;
 }
 @keyframes photoshop {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 50%;}
 }
 
-.skills .skill .wordpress{
+.wordpress{
     width: 0%;
     animation: 2s wordpress forwards;
 }
 @keyframes wordpress {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 80%;}
 }
 
-.skills .skill .drupal{
+.drupal{
     width: 0%;
     animation: 2s drupal forwards;
 }
 @keyframes drupal {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 40%;}
 }
 
-.skills .skill .comunicacion{
+.comunicacion{
     width: 0%;
     animation: 2s comunicacion forwards;
 }
@@ -324,40 +324,40 @@ html{
     100%{width: 80%;}
 }
 
-.skills .skill .trabajo{
+.trabajo{
     width: 0%;
     animation: 2s trabajo forwards;
 }
 @keyframes trabajo {
     0%{width: 0%;}
-    100%{width: 70%;}
+    100%{width: 80%;}
 }
 
-.skills .skill .creatividad{
+.creatividad{
     width: 0%;
     animation: 2s creatividad forwards;
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 100%;}
 }
 
-.skills .skill .dedicacion{
+.dedicacion{
     width: 0%;
     animation: 2s dedicacion forwards;
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 90%;}
 }
 
-.skills .skill .proyect{
+.proyect{
     width: 0%;
     animation: 2s proyect forwards;
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 80%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
@@ -563,7 +563,7 @@ html{
     border: 2px solid #fff;
     width: fit-content;
     display: block;
-    margin: 20px auto;
+    margin: 40px auto;
     padding: 10px 22px;
     font-size: 16px;
     color: #fff;
@@ -609,7 +609,7 @@ html{
 footer{
     background-color: #252A2E;
     color: #fff;
-    padding: 50px 0 30px 0;
+    padding: 40px 0 30px 0;
     text-align: center;
     position: relative;
     width: 100%;
